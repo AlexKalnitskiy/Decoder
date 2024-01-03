@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <RootNamespace>Game</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="ArrayShuffle.fs" />
+        <Compile Include="Code.fs" />
+        <Compile Include="Words.fs" />
+        <Compile Include="EncryptedCode.fs" />
+        <Compile Include="Player.fs" />
+        <Compile Include="Team.fs" />
+        <Compile Include="Game.fs" />
+        <Compile Include="Lobby.fs" />
+    </ItemGroup>
+
+</Project>
