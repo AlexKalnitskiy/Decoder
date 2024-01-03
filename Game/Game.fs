@@ -2,6 +2,7 @@
 
 open System
 open Game.Team
+open Game.Player
 
 type Lobby =
     | Empty
@@ -41,7 +42,3 @@ type RoundEvent =
     | EnemyGuess
     | RoundResult
     | GameResult
-    
-let go game event =
-    match game, event with
-    | NewGame, GameStart ->
